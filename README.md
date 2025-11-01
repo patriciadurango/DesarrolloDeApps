@@ -14,4 +14,13 @@ Aplicación diseñada para mostrar cómo organizar la interfaz en bloques indepe
 
 
 # A05 - UIMenu
-Aplicacion para aprender sobre las maneras
+Creando el proyecto UIMenu aprendí a usar un Side Menu y los elementos de UI de Android en fragments. Me ayudó a entender la navegación entre fragments y a generar un APK funcional, aplicando de forma práctica lo aprendido sobre interfaces modulares.
+
+# A06 - MenuOpciones
+En el proyecto MenuOpciones aprendí a crear un Side Menu con elementos interactivos como un formulario de login y un selector de fecha para calcular la edad. Esta actividad me permitió entender cómo manejar la interacción del usuario.
+
+# A08 - MovieApp
+En el proyecto My Movies trabajé con un arreglo de películas, creando funciones para listar, agregar y modificar películas. Mas que todo aprendí a manejar datos de forma dinámica en Android.
+
+# A09 - Listados
+En el proyecto Listados trabajé con un arreglo de videojuegos, implementando funciones para listar, agregar, editar y eliminar registros. Cada juego incluía título, número de temporadas/capítulos y fecha de estreno. Al realizar esta app aprendí bastante a manejar datos estructurados en android.
