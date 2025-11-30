@@ -1,4 +1,4 @@
-# Portafolio de actividades (A01-A08)
+# Portafolio de actividades (A01-A12)
 
 # A01 - HolaMundoApp
 Aplicación básica creada para familiarizarse con Android Studio y comprender los fundamentos del desarrollo en esta plataforma.
