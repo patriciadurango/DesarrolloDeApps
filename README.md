@@ -24,3 +24,12 @@ En el proyecto My Movies trabajé con un arreglo de películas, creando funcione
 
 # A09 - Listados
 En el proyecto Listados trabajé con un arreglo de videojuegos, implementando funciones para listar, agregar, editar y eliminar registros. Cada juego incluía título, número de temporadas/capítulos y fecha de estreno. Al realizar esta app aprendí bastante a manejar datos estructurados en android.
+
+# A10 - Rick y Morty Api
+En este proyecto llamé una Api de la serie de Rick y Morty donde se desplegaba un listado de los personajes y su estatus en la serie, y las temporadas en la misma. Separadas por pestañas con un Sidebar que contenia un usuario correo. De igual manera tiene un logo que hace que se distinga en el listado de aplicaciones del telefono.
+
+# A11 - Conexion DB
+Cree una plataforma donde se modifican los datos de un restaurante venezolano llamado CHOPS, de igual manejra tiene una tabla de relación de datos y puede añadir o eliminar los mismos, con SQLite.
+
+#A12 - Proyecto Final Chops
+En esta ultima tarea, hice una aplicacion con todos los conocimientos y partes aprendidas a lo largo de la materia de Desarrollo de Aplicaciones Android, la aplicacion tiene un gestion de clientes y platos con un CRUD y los mismos se modifican con SQLite. De igual manera tiene un SideBar en la que se despliegan las pestañas de la app. 
