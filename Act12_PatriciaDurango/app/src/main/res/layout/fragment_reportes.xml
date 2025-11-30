@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- TÍTULO -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📈 REPORTES CON JOIN"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#16A085"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultas con INNER JOIN entre tablas"
+        android:textSize="14sp"
+        android:textColor="#7F8C8D"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <!-- BOTÓN 1: TODOS LOS PEDIDOS -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📊 Reporte 1: Todos los Pedidos"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muestra todos los pedidos con datos completos de clientes y platos usando INNER JOIN"
+                android:textSize="13sp"
+                android:textColor="#7F8C8D"
+                android:paddingBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnReporteTodos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📋 Ver Todos los Pedidos"
+                android:backgroundTint="#16A085"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- BOTÓN 2: PEDIDOS POR CLIENTE -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="👤 Reporte 2: Pedidos por Cliente"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filtra pedidos de un cliente específico con INNER JOIN"
+                android:textSize="13sp"
+                android:textColor="#7F8C8D"
+                android:paddingBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecciona un cliente:"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerClientesReporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnReportePorCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🔍 Ver Pedidos del Cliente"
+                android:backgroundTint="#3498DB"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- BOTÓN 3: PLATOS MÁS VENDIDOS -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🏆 Reporte 3: Platos Más Vendidos"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ranking de platos usando JOIN + GROUP BY con totales agregados"
+                android:textSize="13sp"
+                android:textColor="#7F8C8D"
+                android:paddingBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btnReporteMasVendidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🥇 Ver Ranking de Ventas"
+                android:backgroundTint="#F39C12"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- LISTA DE RESULTADOS -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 RESULTADOS DEL REPORTE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:gravity="center"
+        android:paddingBottom="12dp"/>
+
+    <ListView
+        android:id="@+id/listViewReportes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F8F9FA"
+        android:padding="8dp"
+        android:divider="#BDC3C7"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>
