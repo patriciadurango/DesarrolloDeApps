@@ -19,11 +19,14 @@ Creando el proyecto UIMenu aprendí a usar un Side Menu y los elementos de UI de
 # A06 - MenuOpciones
 En el proyecto MenuOpciones aprendí a crear un Side Menu con elementos interactivos como un formulario de login y un selector de fecha para calcular la edad. Esta actividad me permitió entender cómo manejar la interacción del usuario.
 
-# A08 - MovieApp
+# A07 - MovieApp
 En el proyecto My Movies trabajé con un arreglo de películas, creando funciones para listar, agregar y modificar películas. Mas que todo aprendí a manejar datos de forma dinámica en Android.
 
-# A09 - Listados
+# A08 - Listados
 En el proyecto Listados trabajé con un arreglo de videojuegos, implementando funciones para listar, agregar, editar y eliminar registros. Cada juego incluía título, número de temporadas/capítulos y fecha de estreno. Al realizar esta app aprendí bastante a manejar datos estructurados en android.
+
+# A09 - MySideBar
+En este proyecto hice un sidebar con un dashboard page y otro fragment, para hacer la prueba de como funcionaria. De igual manera aprendi a agregar una imagen de usuario, con su nombre y correo en la misma.
 
 # A10 - Rick y Morty Api
 En este proyecto llamé una Api de la serie de Rick y Morty donde se desplegaba un listado de los personajes y su estatus en la serie, y las temporadas en la misma. Separadas por pestañas con un Sidebar que contenia un usuario correo. De igual manera tiene un logo que hace que se distinga en el listado de aplicaciones del telefono.
