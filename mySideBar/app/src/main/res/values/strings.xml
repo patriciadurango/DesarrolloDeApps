@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mySideBar</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+    <string name="user_name">Patricia Valentina Durango Bravo</string>
+    <string name="user_email">patriciadurango24@gmail.com</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="home_fragment_title">Fragmento de Inicio</string>
+    <string name="dashboard_fragment_title">Fragmento de Dashboard</string>
+</resources>
